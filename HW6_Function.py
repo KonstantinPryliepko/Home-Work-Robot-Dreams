@@ -1,6 +1,6 @@
 # Task 1
 def exponent_digits(x, y):
-    return x**y
+    return x ** y
 def main():
     pow_digits = exponent_digits(x=9, y=3)
     print(pow_digits)
