@@ -13,6 +13,6 @@ def sum_any_numbers(*args):
     #print(type(args))
     return sum_tpl
 def main():
-    any_numbers = sum_any_numbers(1,2,3,4,5,6,7,8,111)
+    any_numbers = sum_any_numbers(1, 2, 3, 4, 5, 6, 7, 8, 111)
     print(any_numbers)
 main()
