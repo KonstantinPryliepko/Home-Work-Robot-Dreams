@@ -16,8 +16,7 @@ def uppercase_func(elements):
 
 
 def numb_elements_func(elements):
-    if isinstance(elements, int):
-        return elements
+    return isinstance(elements, int)
 
 
 def main():
@@ -42,7 +41,7 @@ def main():
         new_strng_elements += elem
     print(new_strng_elements)
 # 2
-    elements = ["asad", [1, 2, 4], "xoxoxoxo", 9, 8, 7]
+    elements = ["asad", [1, 2, 4], "xoxoxoxo", 9, 8, "asad", 7, 0, "asad", 0]
     numb_elements = []
     for elem in filter(numb_elements_func, elements):
         numb_elements.append(elem)
